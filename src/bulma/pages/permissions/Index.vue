@@ -1,8 +1,8 @@
 <template>
-    <enso-table class="box is-paddingless raises-on-hover"
+    <enso-table class="box p-0"
         id="permissions">
         <template #type="{ column, row }">
-            <span class="tag is-table-tag"
+            <span class="tag"
                 :class="cssClass(column.enum, row)">
                 {{ row.type }}
             </span>
